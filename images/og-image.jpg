@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="glow1" cx="20%" cy="50%">
+      <stop offset="0%" style="stop-color:rgba(120,119,198,0.3);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="glow2" cx="80%" cy="20%">
+      <stop offset="0%" style="stop-color:rgba(255,119,198,0.3);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Glowing effects -->
+  <ellipse cx="240" cy="315" rx="300" ry="200" fill="url(#glow1)"/>
+  <ellipse cx="960" cy="126" rx="200" ry="150" fill="url(#glow2)"/>
+  
+  <!-- Logo -->
+  <g transform="translate(150, 200)">
+    <circle cx="50" cy="50" r="45" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    
+    <!-- G shape -->
+    <g transform="translate(50,50)">
+      <path d="M -17 -20 
+               C -17 -27, -10 -32, 0 -32
+               C 10 -32, 17 -27, 17 -20
+               L 17 0
+               L 5 0
+               L 5 -7
+               L 10 -7
+               L 10 -17
+               C 10 -22, 5 -25, 0 -25
+               C -5 -25, -10 -22, -10 -20
+               L -10 20
+               C -10 22, -5 25, 0 25
+               C 5 25, 10 22, 10 20
+               L 10 12
+               L 17 12
+               L 17 20
+               C 17 27, 10 32, 0 32
+               C -10 32, -17 27, -17 20
+               Z" 
+            fill="#ffffff" 
+            stroke="none"/>
+      
+      <circle cx="12" cy="5" r="2" fill="#ffffff"/>
+    </g>
+  </g>
+  
+  <!-- Main Text -->
+  <text x="350" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff">
+    Guestogram
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="350" y="330" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="rgba(255,255,255,0.9)">
+    The Ultimate Guest Management Platform
+  </text>
+  
+  <!-- Coming Soon -->
+  <text x="350" y="380" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="rgba(255,255,255,0.8)">
+    Coming Soon - Get Early Access
+  </text>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.3">
+    <circle cx="950" cy="450" r="3" fill="#ffffff"/>
+    <circle cx="980" cy="420" r="2" fill="#ffffff"/>
+    <circle cx="1020" cy="480" r="4" fill="#ffffff"/>
+    <circle cx="1050" cy="440" r="2" fill="#ffffff"/>
+    <circle cx="1080" cy="470" r="3" fill="#ffffff"/>
+  </g>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="580" width="1200" height="50" fill="rgba(255,255,255,0.1)"/>
+</svg>

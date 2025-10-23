@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#logoGrad)" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Main icon - stylized "G" -->
+  <g transform="translate(100,100)">
+    <!-- Outer G shape -->
+    <path d="M -35 -40 
+             C -35 -55, -20 -65, 0 -65
+             C 20 -65, 35 -55, 35 -40
+             L 35 0
+             L 10 0
+             L 10 -15
+             L 20 -15
+             L 20 -35
+             C 20 -45, 10 -50, 0 -50
+             C -10 -50, -20 -45, -20 -40
+             L -20 40
+             C -20 45, -10 50, 0 50
+             C 10 50, 20 45, 20 40
+             L 20 25
+             L 35 25
+             L 35 40
+             C 35 55, 20 65, 0 65
+             C -20 65, -35 55, -35 40
+             Z" 
+          fill="#ffffff" 
+          stroke="none"/>
+    
+    <!-- Inner dot for modern touch -->
+    <circle cx="25" cy="10" r="4" fill="#ffffff"/>
+    
+    <!-- Stylized guest icons -->
+    <g transform="translate(-10, 15) scale(0.3)">
+      <circle cx="-15" cy="0" r="8" fill="rgba(255,255,255,0.7)"/>
+      <circle cx="0" cy="0" r="8" fill="rgba(255,255,255,0.7)"/>
+      <circle cx="15" cy="0" r="8" fill="rgba(255,255,255,0.7)"/>
+    </g>
+  </g>
+  
+  <!-- Subtle pattern overlay -->
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="rgba(255,255,255,0.1)"/>
+    </pattern>
+  </defs>
+  <circle cx="100" cy="100" r="85" fill="url(#dots)"/>
+</svg>
